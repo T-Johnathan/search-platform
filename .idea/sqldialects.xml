@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/code/search-server/sql/create_table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/code/search-server/src/main/resources/mapper/PostFavourMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/code/search-server/src/main/resources/mapper/PostMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/code/search-server/src/main/resources/mapper/PostThumbMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/code/search-server/src/main/resources/mapper/UserMapper.xml" dialect="GenericSQL" />
+  </component>
+</project>

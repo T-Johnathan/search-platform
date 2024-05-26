@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="search-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="search-backend-master" target="1.8" />
+      <module name="search-common-master" target="1.8" />
+      <module name="search-gateway-master" target="1.8" />
+      <module name="yuso-backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="search-backend-master" options="-parameters" />
+      <module name="search-common-master" options="-parameters" />
+      <module name="search-gateway-master" options="-parameters" />
+      <module name="search-server" options="-parameters" />
+      <module name="yuso-backend" options="-parameters" />
+    </option>
+  </component>
+</project>
